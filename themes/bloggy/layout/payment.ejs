@@ -1,0 +1,51 @@
+<div class="bank-payment-container">
+  <h1><%= page.title %></h1>
+  <div class="payment-form">
+    <form id="paymentForm">
+      <div class="form-group">
+        <label for="cardNumber">卡号：</label>
+        <input type="text" id="cardNumber" name="cardNumber" required />
+      </div>
+      <div class="form-group">
+        <label for="cardHolder">持卡人姓名：</label>
+        <input type="text" id="cardHolder" name="cardHolder" required />
+      </div>
+      <div class="form-group">
+        <label for="expiryDate">有效期：</label>
+        <input
+          type="text"
+          id="expiryDate"
+          name="expiryDate"
+          placeholder="MM/YY"
+          required
+        />
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV：</label>
+        <input type="text" id="cvv" name="cvv" required />
+      </div>
+      <div class="form-group">
+        <label for="amount">金额：</label>
+        <input
+          type="number"
+          id="amount"
+          name="amount"
+          min="0.01"
+          step="0.01"
+          required
+        />
+      </div>
+      <button type="submit">提交付款</button>
+    </form>
+  </div>
+</div>
+
+<script>
+  document
+    .getElementById("paymentForm")
+    .addEventListener("submit", function (e) {
+      e.preventDefault();
+      // 这里添加表单提交逻辑，可以是AJAX请求或其他处理方式
+      alert("付款请求已提交！（这里应该替换为实际的付款处理逻辑）");
+    });
+</script>
