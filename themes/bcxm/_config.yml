@@ -826,6 +826,7 @@ inject:
   bottom:
     # - <script src="xxxx"></script>
     <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/leancloud-storage@4.10.0/dist/av-min.js"></script>
+    <script src="/js/waterfall.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
