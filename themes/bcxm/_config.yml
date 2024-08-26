@@ -504,58 +504,58 @@ enter_transitions: true
 
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
-canvas_ribbon:
-  enable: false
-  size: 150
-  alpha: 0.6
-  zIndex: -1
-  click_to_change: false
-  mobile: false
+# canvas_ribbon:
+#   enable: false
+#   size: 150
+#   alpha: 0.6
+#   zIndex: -1
+#   click_to_change: false
+#   mobile: false
 
-# Fluttering Ribbon (動態彩帶)
-canvas_fluttering_ribbon:
-  enable: false
-  mobile: false
+# # Fluttering Ribbon (動態彩帶)
+# canvas_fluttering_ribbon:
+#   enable: false
+#   mobile: false
 
-# canvas_nest
-# https://github.com/hustcc/canvas-nest.js
-canvas_nest:
-  enable: true
-  color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
-  opacity: 0.7 # the opacity of line (0~1), default: 0.5.
-  zIndex: -1 # z-index property of the background, default: -1.
-  count: 99 # the number of lines, default: 99.
-  mobile: false
+# # canvas_nest
+# # https://github.com/hustcc/canvas-nest.js
+# canvas_nest:
+#   enable: true
+#   color: '0,0,255' #color of lines, default: '0,0,0'; RGB values: (R,G,B).(note: use ',' to separate.)
+#   opacity: 0.7 # the opacity of line (0~1), default: 0.5.
+#   zIndex: -1 # z-index property of the background, default: -1.
+#   count: 99 # the number of lines, default: 99.
+#   mobile: false
 
-# Typewriter Effect (打字效果)
-# https://github.com/disjukr/activate-power-mode
-activate_power_mode:
-  enable: false
-  colorful: true # open particle animation (冒光特效)
-  shake: true #  open shake (抖動特效)
-  mobile: false
+# # Typewriter Effect (打字效果)
+# # https://github.com/disjukr/activate-power-mode
+# activate_power_mode:
+#   enable: false
+#   colorful: true # open particle animation (冒光特效)
+#   shake: true #  open shake (抖動特效)
+#   mobile: false
 
-# Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
-fireworks:
-  enable: false
-  zIndex: 9999 # -1 or 9999
-  mobile: false
+# # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
+# fireworks:
+#   enable: false
+#   zIndex: 9999 # -1 or 9999
+#   mobile: false
 
-# Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
-click_heart:
-  enable: true
-  mobile: false
+# # Mouse click effects: Heart symbol (鼠標點擊效果: 愛心)
+# click_heart:
+#   enable: true
+#   mobile: false
 
-# Mouse click effects: words (鼠標點擊效果: 文字)
-ClickShowText:
-  enable: false
-  text:
-    # - I
-    # - LOVE
-    # - YOU
-  fontSize: 15px
-  random: false
-  mobile: false
+# # Mouse click effects: words (鼠標點擊效果: 文字)
+# ClickShowText:
+#   enable: false
+#   text:
+#     # - I
+#     # - LOVE
+#     # - YOU
+#   fontSize: 15px
+#   random: false
+#   mobile: false
 
 # Default display mode (網站默認的顯示模式)
 # light (default) / dark
